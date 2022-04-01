@@ -21,5 +21,7 @@
 			</array>
 		</dict>
 	</dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>For Accessing Photo Library</string>
 </dict>
 </plist>

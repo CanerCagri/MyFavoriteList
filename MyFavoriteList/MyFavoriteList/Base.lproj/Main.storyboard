@@ -68,6 +68,9 @@
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Price" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ofL-c6-mkx">
                                 <rect key="frame" x="57" y="431" width="322" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="jKN-xM-ZsM"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -81,11 +84,14 @@
                                     <action selector="saveBtnTapped:" destination="zrg-Ug-myd" eventType="touchUpInside" id="okV-xv-6n8"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qrg-a1-y1m">
-                                <rect key="frame" x="57" y="103" width="322" height="197"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="addimage" translatesAutoresizingMaskIntoConstraints="NO" id="qrg-a1-y1m">
+                                <rect key="frame" x="57" y="103" width="322" height="209"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Product Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OzO-aw-SYZ">
                                 <rect key="frame" x="57" y="357" width="322" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="PF3-LS-Qjd"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -93,20 +99,20 @@
                         <viewLayoutGuide key="safeArea" id="6se-L5-hOg"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="WII-OI-XtH" firstAttribute="top" secondItem="ofL-c6-mkx" secondAttribute="bottom" constant="35" id="0LV-Hd-AdB"/>
-                            <constraint firstItem="ofL-c6-mkx" firstAttribute="centerY" secondItem="ZRV-fl-wsr" secondAttribute="centerY" id="85a-Vs-xRU"/>
-                            <constraint firstItem="ofL-c6-mkx" firstAttribute="top" secondItem="OzO-aw-SYZ" secondAttribute="bottom" constant="40" id="Ddx-XA-2sB"/>
-                            <constraint firstItem="6se-L5-hOg" firstAttribute="trailing" secondItem="qrg-a1-y1m" secondAttribute="trailing" constant="35" id="OpI-HO-he1"/>
-                            <constraint firstItem="qrg-a1-y1m" firstAttribute="leading" secondItem="6se-L5-hOg" secondAttribute="leading" constant="57" id="SPE-yY-dbt"/>
-                            <constraint firstItem="OzO-aw-SYZ" firstAttribute="trailing" secondItem="ofL-c6-mkx" secondAttribute="trailing" id="Twy-hk-wFe"/>
-                            <constraint firstItem="qrg-a1-y1m" firstAttribute="top" secondItem="6se-L5-hOg" secondAttribute="top" constant="15" id="WvQ-yU-qEM"/>
-                            <constraint firstItem="qrg-a1-y1m" firstAttribute="leading" secondItem="OzO-aw-SYZ" secondAttribute="leading" id="cgJ-2l-Ibi"/>
-                            <constraint firstItem="WII-OI-XtH" firstAttribute="leading" secondItem="6se-L5-hOg" secondAttribute="leading" constant="150" id="faE-PE-60y"/>
-                            <constraint firstItem="OzO-aw-SYZ" firstAttribute="top" secondItem="qrg-a1-y1m" secondAttribute="bottom" constant="57" id="kT0-FL-pPE"/>
-                            <constraint firstItem="qrg-a1-y1m" firstAttribute="trailing" secondItem="OzO-aw-SYZ" secondAttribute="trailing" id="l0d-2n-pEa"/>
-                            <constraint firstItem="WII-OI-XtH" firstAttribute="centerX" secondItem="ZRV-fl-wsr" secondAttribute="centerX" id="s6r-vb-v4f"/>
-                            <constraint firstItem="6se-L5-hOg" firstAttribute="bottom" secondItem="WII-OI-XtH" secondAttribute="bottom" constant="298" id="wIx-jH-0ua"/>
-                            <constraint firstItem="OzO-aw-SYZ" firstAttribute="leading" secondItem="ofL-c6-mkx" secondAttribute="leading" id="waL-OZ-vwr"/>
+                            <constraint firstItem="qrg-a1-y1m" firstAttribute="leading" secondItem="6se-L5-hOg" secondAttribute="leading" constant="57" id="C1l-1S-QvU"/>
+                            <constraint firstItem="WII-OI-XtH" firstAttribute="leading" secondItem="6se-L5-hOg" secondAttribute="leading" constant="150" id="FNI-aw-csT"/>
+                            <constraint firstItem="OzO-aw-SYZ" firstAttribute="top" secondItem="qrg-a1-y1m" secondAttribute="bottom" constant="45" id="FkY-hm-cQM"/>
+                            <constraint firstItem="6se-L5-hOg" firstAttribute="bottom" secondItem="WII-OI-XtH" secondAttribute="bottom" constant="298" id="HkK-ll-Fy7"/>
+                            <constraint firstItem="WII-OI-XtH" firstAttribute="centerX" secondItem="ZRV-fl-wsr" secondAttribute="centerX" id="IWV-0r-NDa"/>
+                            <constraint firstItem="6se-L5-hOg" firstAttribute="trailing" secondItem="qrg-a1-y1m" secondAttribute="trailing" constant="35" id="Kqb-M8-j87"/>
+                            <constraint firstItem="OzO-aw-SYZ" firstAttribute="leading" secondItem="ofL-c6-mkx" secondAttribute="leading" id="M9U-pj-D4I"/>
+                            <constraint firstItem="qrg-a1-y1m" firstAttribute="top" secondItem="6se-L5-hOg" secondAttribute="top" constant="15" id="Ttb-NK-XqD"/>
+                            <constraint firstItem="qrg-a1-y1m" firstAttribute="trailing" secondItem="OzO-aw-SYZ" secondAttribute="trailing" id="dYq-qQ-mHa"/>
+                            <constraint firstItem="WII-OI-XtH" firstAttribute="top" secondItem="ofL-c6-mkx" secondAttribute="bottom" constant="35" id="ecJ-eX-TFh"/>
+                            <constraint firstItem="qrg-a1-y1m" firstAttribute="leading" secondItem="OzO-aw-SYZ" secondAttribute="leading" id="hrM-KV-1Rg"/>
+                            <constraint firstItem="OzO-aw-SYZ" firstAttribute="trailing" secondItem="ofL-c6-mkx" secondAttribute="trailing" id="nRK-yu-Hff"/>
+                            <constraint firstItem="ofL-c6-mkx" firstAttribute="top" secondItem="OzO-aw-SYZ" secondAttribute="bottom" constant="40" id="u4J-rY-0en"/>
+                            <constraint firstItem="ofL-c6-mkx" firstAttribute="centerY" secondItem="ZRV-fl-wsr" secondAttribute="centerY" id="ytN-Yf-KCy"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="JMj-0P-xIU"/>
@@ -114,6 +120,7 @@
                         <outlet property="imageView" destination="qrg-a1-y1m" id="7V1-bs-wmX"/>
                         <outlet property="nameTextField" destination="OzO-aw-SYZ" id="4Pl-3u-oen"/>
                         <outlet property="priceTextField" destination="ofL-c6-mkx" id="4Kw-yW-pdh"/>
+                        <outlet property="saveButtpn" destination="WII-OI-XtH" id="WCm-wN-2Pg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Vi-OZ-Vp4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -122,6 +129,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="addimage" width="200" height="200"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
